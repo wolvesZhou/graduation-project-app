@@ -1,5 +1,5 @@
 /**
- * Created by Administrator on 2016/7/7.
+ * Created by zwf on 17-4-17.
  */
 
 import React from 'react';
@@ -12,15 +12,9 @@ export default class extends React.Component{
     }
 
     componentDidMount(){
-        // var that = this;
-        // Rebus.connect(CONST.ACTION.ERROR,function(notification){
-        //     that.setNotification(notification.message)
-        // })
-        //
-        // Rebus.connect(CONST.ACTION.MESSAGE,function(notification){
-        //     that.setNotification(notification.message)
-        // })
+
     }
+
     setNotification(notification){
         var that = this;
         if(this.timeHandle){

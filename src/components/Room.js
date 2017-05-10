@@ -54,25 +54,9 @@ export default class extends React.Component {
     }
 
     componentDidUpdate(){
-        // var canShow = this.props.location&&this.props.location.state;
-        // if (canShow){
-        //     this.refs.setPatternPage.show();
-        // }
+
     }
 
-    setGroupId (id){
-        // this.setState({
-        //     groupId:id,
-        //     hasSwip:true
-        // });
-    }
-
-    setHomeLayOut(homeConfig,option){
-        // this.setState({
-        //     homeConfig:homeConfig,
-        //     option:option
-        // })
-    }
 
     updateHeight(height) {
         const oneRem = parseFloat($("html").css("fontSize"));
@@ -93,11 +77,7 @@ export default class extends React.Component {
     }
 
     render() {
-        // var curHouseId = Rebus.getState(CONST.STATE.CUR_HOUSE);
-        // var allHouses = Rebus.getState(CONST.STATE.HOUSES);
-        // var curHouse = _.find(allHouses, function (house) {
-        //     return house.uuid === curHouseId;
-        // })
+
         var headStyle = {
             background:'linear-gradient(#9ADEFF, #00b8fe)',
             height:'60px'
@@ -124,12 +104,6 @@ export default class extends React.Component {
                     curShopValue={this.state.curShopValue}
                     shopnames={this.state.shopnames}
                     curShop={this.state.curShop}
-                    //setGroupId = {this.setGroupId.bind(this)}
-                    //groupDatas={this.state.groupDatas}
-                    //houseData={this.houseData}
-                    //houseConfig={this.state.houseConfig}
-                    //groupKeysArr = {this.groupKeysArr}
-                    //setHomeLayOut = {this.setHomeLayOut.bind(this)}
                     ref = 'swiperComp'
                 />
                 <ReactHeight onHeightReady={this.FooterHeight}>

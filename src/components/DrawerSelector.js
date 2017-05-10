@@ -17,8 +17,6 @@ export default class  extends React.Component {
         super(props)
         this.state = {
             isModalOpen: false,
-            //      curHouseId:Rebus.getState(CONST.STATE.CUR_HOUSE) || '',
-            //     houses:Rebus.getState(CONST.STATE.HOUSES)
         };
     }
 
@@ -35,17 +33,6 @@ export default class  extends React.Component {
     }
 
     handleItemClick(house) {
-        // var that = this;
-        // if(this.props.onItemClick){
-        //     this.props.onItemClick(uuid);
-        //     that.closeModal();
-        // }else{
-        //     Rebus.execute({akey: this.props.action_id, from: 'home.js'}, uuid);
-        //     this.closeModal();
-        //
-        //
-        // }
-        //this.props.changePetShop(house)
         CONST.curShop = house
         this.closeModal()
 
@@ -63,7 +50,6 @@ export default class  extends React.Component {
             backgroundColor:'#BBDEFB'
 
         }
-        // const userInfo = Rebus.getState(CONST.STATE.USER)||{};
         var houseList = [];
 
         _.map(this.props.petshops, function (house, index) {

@@ -60,7 +60,6 @@ export default class extends React.Component {
 
         return _.map(data, function (l, i) {
             var state = _this.state;
-            // var data = l.type == "devs" ? _this.houseData.devs[l.devId] : _this.houseData.scenes[l.sceneId];
             var option = {
                     space: 1,
                     height: 1
@@ -106,9 +105,7 @@ export default class extends React.Component {
 
 
     setGroupId(swiper, event) {
-        // let index = swiper.activeIndex;
-        // let activeGroup = this.props.groupKeysArr[index];
-        // this.props.setGroupId(activeGroup);
+
     }
 
     render() {
@@ -125,7 +122,6 @@ export default class extends React.Component {
         }.bind(this))
         var swipValue = _.map(finalConfig, (value, i) => {
             if (value.length > 0) {
-                // var groupname = newGroupDefine[i];
                 return (
                     <Slide
                         className="Demo-swiper__slide"
@@ -141,8 +137,6 @@ export default class extends React.Component {
                                 cols={this.props.cols}
                                 rowHeight={this.props.height * .17}
                                 curShop={this.props.curShop}
-                                //onLayoutChange={this.onLayoutChange}
-                                //houseid={this.props.houseData.uuid}
                                 />
                         </div>
                         <span className="groupname">{i}</span>

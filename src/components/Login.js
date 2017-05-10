@@ -20,9 +20,6 @@ export default class extends React.Component{
         super(props)
     }
 
-    // clickAction(){
-    //     browserHistory.goBack();
-    // }
 
     logIn(){
         let user = $(this.refs.phoneno).val();

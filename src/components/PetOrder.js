@@ -42,7 +42,6 @@ export default class extends React.Component {
 
         this.state = {
 
-            // curHouseId: Rebus.getState(CONST.STATE.CUR_HOUSE),
             clientHeight: 440,
             navHeight:64 ,
             FooterHeight:footerHeight,
@@ -171,9 +170,6 @@ export default class extends React.Component {
     render() {
 
 
-        // var curHouse = _.find(allHouses, function (house) {
-        //     return house.uuid === cur_id;
-        // })
         var canSubmit = this.state.canSubmit
 
         if (this.refs.user){
@@ -197,7 +193,6 @@ export default class extends React.Component {
         }
 
         var height=(this.props.height || window.innerHeight) - this.state.navHeight
-        // var accessToken = Rebus.getState(CONST.STATE.ACCESSTOKEN);
 
         var toolbarStyle = {
             position:'fixed',

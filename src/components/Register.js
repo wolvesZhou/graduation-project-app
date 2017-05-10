@@ -67,11 +67,9 @@ export default class extends React.Component{
     }
 
     getErrorMes(){
-        // Rebus.execute({akey:CONST.ACTION.ERROR,from:''},{message:'手机号或数字格式错误'});
     }
 
     componentDidMount(){
-        //$(this.refs.telNo.input).inputmask({mask:'99999999999',placeholder: ''});
         this.getReptcha();
     }
     render() {

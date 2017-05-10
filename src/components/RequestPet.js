@@ -36,18 +36,9 @@ export default class extends React.Component {
     }
 
     componentDidUpdate(){
-        // var canShow = this.props.location&&this.props.location.state;
-        // if (canShow){
-        //     this.refs.setPatternPage.show();
-        // }
+
     }
 
-    setGroupId (id){
-        // this.setState({
-        //     groupId:id,
-        //     hasSwip:true
-        // });
-    }
 
     setHomeLayOut(homeConfig,option){
         // this.setState({
@@ -102,11 +93,6 @@ export default class extends React.Component {
     }
 
     render() {
-        // var curHouseId = Rebus.getState(CONST.STATE.CUR_HOUSE);
-        // var allHouses = Rebus.getState(CONST.STATE.HOUSES);
-        // var curHouse = _.find(allHouses, function (house) {
-        //     return house.uuid === curHouseId;
-        // })
         var textareaStyle = {
             width:'100%',
             minHeight:'300px',

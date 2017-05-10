@@ -40,8 +40,6 @@ export default class extends React.Component{
     }
 
     logout() {
-        // localStorage.removeItem('accessToken');
-        // Rebus.execute({akey:CONST.ACTION.LOGOUT,from:''},{message:'你已退出登录'});
         browserHistory.push('/Login');
     }
 
@@ -62,7 +60,6 @@ export default class extends React.Component{
             overflowY:"scroll",
         }
 
-        // const houseLayout = Rebus.getState(CONST.STATE.HOUSELAYOUT);
         var listItems = [];
         listItems.push(<Subheader inset={true} style={{fontSize:'16px'}} key="subCon">管理</Subheader>);
         listItems.push(<Divider key="condivider"/>);
@@ -90,13 +87,7 @@ export default class extends React.Component{
         listItems.push(
             <Divider key="devdivider"/>
         )
-        // listItems.push(<List.Item
-        //     linkComponent={Link}
-        //     linkProps={{to:'/Share'}}
-        //     media={<IconShare color="rgb(250, 179, 27)"  />}
-        //     title="设备分享"
-        //     subTitle="将控制功能分享给家人"
-        // />)
+
         var headStyle = {
             background:'linear-gradient(#9ADEFF, #00b8fe)',
             height:'60px'

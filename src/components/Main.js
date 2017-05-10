@@ -27,7 +27,6 @@ export default class extends React.Component {
         const footerHeight=oneRem*4;
         this.state = {
 
-            // curHouseId: Rebus.getState(CONST.STATE.CUR_HOUSE),
             clientHeight: 440,
             navHeight:64 ,
             FooterHeight:footerHeight,
@@ -76,10 +75,6 @@ export default class extends React.Component {
     }
     render() {
 
-
-        // var curHouse = _.find(allHouses, function (house) {
-        //     return house.uuid === cur_id;
-        // })
         var curShop =  CONST.curShop
 
         const cssHeight = {
@@ -93,7 +88,6 @@ export default class extends React.Component {
         }
 
         var height=(this.props.height || window.innerHeight) - this.state.navHeight - this.state.FooterHeight;
-        // var accessToken = Rebus.getState(CONST.STATE.ACCESSTOKEN);
 
         return (
             <Paper id="app-index">

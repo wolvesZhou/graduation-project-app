@@ -31,9 +31,6 @@ export default class HomeGridLayout extends React.Component {
     componentDidMount() {
         this.setState({mounted: false});
 
-        // _.map(this.state.layouts.lg,function (value,key) {
-        //     this.refs['comp'+value.data.devId+key].loadFile()
-        // }.bind(this))
 
     }
 
@@ -42,11 +39,7 @@ export default class HomeGridLayout extends React.Component {
     }
 
     generateDOM() {
-        //let accessToken = encodeURIComponent(Rebus.getState(CONST.STATE.ACCESSTOKEN))||'';
-        //let houseid = this.props.houseid;
         return _.map(this.state.layouts.lg, function (value, i) {
-            //var valueData = value.data;
-            //var sceneid = value.type=="devs"?valueData.devId:valueData.sceneId;
             let classname = value.static?'static patternDeviceLi':'patternDeviceLi';
             let selstyle = value.seled?' sel':'';
             classname = classname + selstyle;
