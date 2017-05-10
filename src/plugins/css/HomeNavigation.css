@@ -1,0 +1,20 @@
+.homenavigationContainer{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.homenavigationContainer .con{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.homenavigationContainer .con botton{
+    width: 32%;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+    background: rgba(255,255,255, .3);
+}

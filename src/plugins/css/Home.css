@@ -1,0 +1,5 @@
+﻿.homePage{
+    background: linear-gradient(#9ADEFF, #00b8fe);
+    display: flex;
+    flex-direction: column;
+}

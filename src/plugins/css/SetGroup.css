@@ -1,0 +1,231 @@
+.setGroupPage{
+    background: linear-gradient(#9ADEFF, #00b8fe);
+    display: flex;
+    flex-direction: column;
+}
+.setGroupPage .setHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .3rem;
+}
+.setGroupPage .setHead .back{
+    align-self: flex-start;
+    padding: 20px;
+    color: #FFF;
+    margin-bottom: -10px;
+}
+.setGroupPage .setHead .setForm input{
+    border: none;
+    background: #FFF;
+    border-radius: 20px;
+    text-indent: 15px;
+    padding: 5px;
+    font-size: 14px;
+}
+.setGroupPage .setHead .setForm{
+    margin-bottom: 30px;
+}
+.setGroupPage .setHead .setTxt{
+    color: #FFF;
+    margin-bottom: 5px;
+    font-size: .8rem;
+}
+.setGroupPage .swiper-container{
+    border-top:1px solid #FFF;
+    border-bottom:1px solid #FFF;
+    overflow: visible;
+}
+.setGroupPage .subBtn {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.setGroupPage .subBtn a{
+    padding: 1rem;
+    color: #FFF;
+    font-size: 1rem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.setGroupPage .swiper-pagination{
+    bottom: -20px;
+    height: 20px;
+}
+
+.setGroupPage .react-grid-layout {
+    position: relative;
+    transition: height 200ms ease;
+}
+
+.setGroupPage .react-grid-layout .react-grid-item {
+    transition: all 200ms ease;
+    transition-property: left, top;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -5px #666;
+    overflow: hidden;
+}
+
+.setGroupPage .react-grid-layout .react-grid-item.cssTransforms {
+    transition-property: transform;
+}
+
+.setGroupPage .react-grid-layout .react-grid-item.resizing {
+    z-index: 1;
+    will-change: width, height;
+}
+
+.setGroupPage .react-grid-layout .react-grid-item.react-draggable-dragging {
+    transition: none;
+    z-index: 3;
+    will-change: transform;
+}
+
+.setGroupPage .react-grid-layout .react-grid-item.react-grid-placeholder {
+    background: red;
+    opacity: 0.2;
+    transition-duration: 100ms;
+    z-index: 2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.setGroupPage .react-grid-layout .react-grid-item > .react-resizable-handle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+    right: 0;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pg08IS0tIEdlbmVyYXRvcjogQWRvYmUgRmlyZXdvcmtzIENTNiwgRXhwb3J0IFNWRyBFeHRlbnNpb24gYnkgQWFyb24gQmVhbGwgKGh0dHA6Ly9maXJld29ya3MuYWJlYWxsLmNvbSkgLiBWZXJzaW9uOiAwLjYuMSAgLS0+DTwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DTxzdmcgaWQ9IlVudGl0bGVkLVBhZ2UlMjAxIiB2aWV3Qm94PSIwIDAgNiA2IiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjojZmZmZmZmMDAiIHZlcnNpb249IjEuMSINCXhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiDQl4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjZweCIgaGVpZ2h0PSI2cHgiDT4NCTxnIG9wYWNpdHk9IjAuMzAyIj4NCQk8cGF0aCBkPSJNIDYgNiBMIDAgNiBMIDAgNC4yIEwgNCA0LjIgTCA0LjIgNC4yIEwgNC4yIDAgTCA2IDAgTCA2IDYgTCA2IDYgWiIgZmlsbD0iIzAwMDAwMCIvPg0JPC9nPg08L3N2Zz4=');
+    background-position: bottom right;
+    padding: 0 3px 3px 0;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    box-sizing: border-box;
+    cursor: se-resize;
+}
+
+.setGroupPage .react-grid-layout .patternDeviceLi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.setGroupPage .react-grid-layout .patternDeviceLi img {
+    width: 44%;
+    margin-bottom: 5px;
+}
+
+.setGroupPage .react-grid-layout .patternDeviceLi span {
+    font-size: .9rem;
+    color: #FFF;
+}
+
+.setGroupPage .react-grid-layout .react-grid-item.patternDeviceLi {
+    box-shadow: none;
+    border: 1px solid #FFF;
+}
+
+.setGroupPage .react-grid-layout .react-grid-item.patternDeviceLi.sel {
+    background: rgba(255, 255, 255, .2);
+}
+
+.setGroupPage .react-grid-layout .react-grid-item.comploader .comp-loader {
+    border-radius: 10px;
+}
+
+.setGroupPage .react-grid-layout .react-grid-item.react-grid-placeholder {
+    background: #000;
+}
+
+.setGroupPage .swiper-container {
+    width: 100%;
+}
+
+.setGroupPage .swiper-container .swiper-pagination-bullet {
+    width: 18px;
+    height: 3px;
+    border-radius: 3px
+}
+
+.setGroupPage .swiper-container .swiper-pagination-bullet-active {
+    background: #FFF
+}
+
+.setGroupPage .swiper-container .swiper-pagination-bullet {
+    background: #FFF
+}
+
+.setGroupPage .swiper-container .swiper-pagination-fraction,
+.setGroupPage .swiper-container .swiper-pagination-custom,
+.setGroupPage .swiper-container .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 5px;
+}
+
+.setGroupPage .swiper-container .groupname {
+    position: absolute;
+    width: 100%;
+    color: #FFF;
+    font-weight: 100;
+    text-align: center;
+    bottom: -38px;
+    height: 20px;
+    font-size: .9rem;
+    margin: 0;
+}
+
+.setGroupPage .swiper-container .layoutBtn {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+
+}
+
+.setGroupPage .swiper-container .layoutBtn .con {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.setGroupPage .swiper-container .layoutBtn .con botton {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+    background: rgba(255, 255, 255, .3);
+}
+
+.setGroupPage .swiper-container .homeLayoutBottomWamp {
+    position: absolute;
+    bottom: -5px;
+    height: 50px;
+    background: linear-gradient(180deg, rgba(0, 184, 254, 0), rgba(0, 184, 254, 1));
+    width: 100%;
+}
+
+.setGroupPage .swiper-container .SetLayout {
+    position: relative;
+}
+
+.setGroupPage .swiper-container .SetLayout .homeLayoutBottomWamp {
+    bottom: 44px;
+}
+
+.setGroupPage .swiper-container .homeGridContent{
+    padding-bottom: 20px;
+    overflow: scroll;
+}
+
+

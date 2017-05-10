@@ -1,0 +1,100 @@
+.react-git-card {
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  background: #E3F2FD;
+  overflow: hidden;
+  .react-git-card-avatar {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid darksalmon;
+    margin: 40px auto 30px;
+    background-image: url("../img/userdefault.png");
+    background-size: 100%;
+  }
+  .react-git-card-name {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: bolder;
+  }
+  .react-git-card-desc {
+
+    font-size: 16px;
+    color: #9099b7;
+    text-align: center;
+  }
+  .react-git-card-social {
+    overflow: hidden;
+    background: #50597b;
+    .react-git-card-item {
+      float: left;
+      height: 60px;
+      width: 33%;
+      text-align: center;
+      line-height: 60px;
+      margin-right: 1px;
+      background: #B3E5FC;
+      .react-git-card-icon {
+        margin-right: 8px;
+      }
+      &.followers {
+        box-shadow: inset 0 5px 0 #cc324b;
+      }
+      &.repos {
+        box-shadow: inset 0 5px 0 #11a8ab;
+      }
+      &.following {
+        box-shadow: inset 0 5px 0 #fcb150;
+      }
+      &:hover {
+        background: #50597b;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+}
+
+//公共样式部分
+@import './common.css';
+
+//引入组件样式
+@import '../../../node_modules/react-dynamic-swiper/lib/styles.css';
+@import '../../../node_modules/react-grid-layout/css/styles.css';
+@import '../../../node_modules/react-resizable/css/styles.css';
+@import './switch.css';
+@import './iosSelect.css';
+
+//老的样式文件
+//@import './pager.css';
+//@import './dialog.css';
+//@import './fontstyle.css';
+
+//自定义组件样式
+@import './Login.css';
+@import './Register.css';
+@import './Head.css';
+@import './Main.css';
+@import './Home.css';
+@import './HomeLayout.css';
+@import './HomeNavigation.css';
+@import './HomeSwiper.css';
+@import './SetGroup.css';
+@import './SetPattern.css';
+@import './SetLayout.css';
+
+
+
+
+
+

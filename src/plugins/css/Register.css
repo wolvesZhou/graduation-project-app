@@ -1,0 +1,130 @@
+.RegisterContent{
+    background: linear-gradient(#9ADEFF, #00b8fe);;
+}
+.RegisterContent .registerPage{
+}
+.RegisterContent .registerPage .back{
+    display: flex;
+}
+.RegisterContent .registerPage .back a{
+    padding: 20px;
+    margin-bottom: -10px;
+    color: #FFF;
+}
+.RegisterContent .registerPage .registerForm{
+    padding: 0 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+.RegisterContent .registerPage .registerForm .regli{
+    background: #FFF;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    display: flex;
+    line-height: 26px;
+    align-items: center;
+    border: 1px solid #FFF;
+}
+.RegisterContent .registerPage .registerForm .regli span{
+    color: #666;
+    font-size:.84rem;
+    width: 3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+}
+.RegisterContent .registerPage .registerForm .regli input {
+    font-size: .8rem;
+    flex-grow: 1;
+    outline: none;
+    line-height: 26px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 1;
+    width: 100%
+}
+.RegisterContent .registerPage .registerForm .regli.yanzhen img{
+    width: 100px;
+    flex-grow: 1;
+    margin-right: -5px;
+}
+.RegisterContent .registerPage .registerForm .regli.yanzhen input{
+    flex-shrink: 1;
+}
+.RegisterContent .registerPage .registerForm .regli .yanzhenBtn{
+    margin-top: -5px;
+    height: 40px;
+    margin-right: -10px;
+    margin-bottom: -5px;
+    border-radius: 0 10px 10px 0;
+    background: #5acbfa;
+    color: #FFF;
+    width: 100px;
+}
+.RegisterContent .registerPage .registerForm .regli .yanzhenBtn.wait{
+    color: #333;
+    background: #B4B4B4;
+}
+.RegisterContent .registerPage .registerForm .regli.submitBtn{
+    padding-top: 30px;
+    background: none;
+    border-radius: 0;
+    border: none;
+    justify-content: center;
+    flex-direction: column;
+}
+.RegisterContent .registerPage .registerForm .regli.loginSubBtn{
+    display: flex;
+    flex-grow: 1;
+    align-items: stretch;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+.RegisterContent .registerPage .registerForm .regli.submitLnk{
+    background: none;
+    border-radius: 0;
+    border: none;
+    justify-content:space-between;
+    flex-direction: row;
+    display: flex;
+    padding: 0;
+}
+.RegisterContent .registerPage .registerForm .regli.submitBtn .subbtn{
+    background: #7bd5fb;
+    display: flex;
+    padding: 0 50px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    color: #FFF;
+    box-shadow: 1px 1px 2px rgba(100,100,100,0.2);
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 0 rgba(100,100,100,0.2);
+}
+.RegisterContent .registerPage .registerForm .regli.submitBtn .loginBtn{
+    background: #7bd5fb;
+    display: flex;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    color: #FFF;
+    box-shadow: 1px 1px 2px rgba(100,100,100,0.2);
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    justify-content: center;
+    text-shadow: 1px 1px 0 rgba(100,100,100,0.2);
+}
+.RegisterContent .registerPage .registerForm .regli.submitLnk  .reglnk{
+    color: #FFF;
+    padding: 0;
+    text-decoration: underline;
+    font-size: .88rem;
+}

@@ -1,0 +1,13 @@
+@font-face { font-family: 'icomoon'; src: url('../fonts/icomoon.eot?fp1qjf'); src: url('../fonts/icomoon.eot?fp1qjf#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?fp1qjf') format('truetype'), url('../fonts/icomoon.woff?fp1qjf') format('woff'), url('../fonts/icomoon.svg?fp1qjf#icomoon') format('svg'); font-weight: normal; font-style: normal; }
+
+[class^="ion-icon-"], [class*=" ion-icon-"] { /* use !important to prevent issues with browser extensions that change fonts */ font-family: 'icomoon' !important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.ion-icon-chevron-down:before { content: "\f123"; }
+.ion-icon-chevron-left:before { content: "\f124"; }
+.ion-icon-chevron-right:before { content: "\f125"; }
+.ion-icon-chevron-up:before { content: "\f126"; }
+.ion-icon-close-circled:before { content: "\f128"; }
+.ion-icon-minus-circled:before { content: "\f207"; }
+.ion-icon-plus-circled:before { content: "\f216"; }
+.ion-icon-android-radio-button-off:before { content: "\f3a6"; }
+.ion-icon-android-radio-button-on:before { content: "\f3a7"; }

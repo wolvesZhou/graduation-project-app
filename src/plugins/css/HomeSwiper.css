@@ -1,0 +1,83 @@
+.homeSwiperContainer.swiper-container {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.homeSwiperContainer.swiper-container .swiper-pagination-bullet {
+    width: 18px;
+    height: 3px;
+    border-radius: 3px
+}
+
+.homeSwiperContainer.swiper-container .swiper-pagination-bullet-active {
+    background: #FFF
+}
+
+.homeSwiperContainer.swiper-container .swiper-pagination-bullet {
+    background: #FFF
+}
+
+.homeSwiperContainer.swiper-container .swiper-pagination-fraction,
+.homeSwiperContainer.swiper-container .swiper-pagination-custom,
+.homeSwiperContainer.swiper-container .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 5px;
+}
+
+.homeSwiperContainer.swiper-container .groupname {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #FFF;
+    font-weight: 100;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.homeSwiperContainer.swiper-container .layoutBtn {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+
+}
+
+.homeSwiperContainer.swiper-container .layoutBtn .con {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.homeSwiperContainer.swiper-container .layoutBtn .con botton {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+    background: rgba(255, 255, 255, .3);
+}
+
+.homeSwiperContainer.swiper-container .homeLayoutBottomWamp {
+    position: absolute;
+    bottom: -5px;
+    height: 50px;
+    background: linear-gradient(180deg, rgba(0, 184, 254, 0), rgba(0, 184, 254, 1));
+    width: 100%;
+}
+
+.homeSwiperContainer.swiper-container .SetLayout {
+    position: relative;
+}
+
+.homeSwiperContainer.swiper-container .SetLayout .homeLayoutBottomWamp {
+    bottom: 44px;
+}
+
+.homeSwiperContainer.swiper-container .homeGridContent{
+    padding-bottom: 20px;
+    overflow: scroll;
+}
+
+

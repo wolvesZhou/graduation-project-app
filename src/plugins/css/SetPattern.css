@@ -1,0 +1,150 @@
+.patternDilog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 1000;
+}
+
+.patternDilog .form-item .control {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patternDilog .form-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patternDilog .swiper-container {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+.patternDilog .swiper-container .swiper-wrapper .swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.patternDilog .swiper-container .swiper-wrapper .swiper-slide .form-item {
+    width: 60%;
+    flex-direction: column;
+    background: #5acbfa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px 0;
+}
+
+.patternDilog .swiper-container .swiper-pagination {
+    top: -25px;
+    height: 24px;
+}
+
+.patternDilog .swiper-slide .form-item {
+    position: relative;
+}
+
+.patternDilog .swiper-slide .form-item .title {
+    top: -40px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+}
+
+.patternDilog .swiper-slide .form-item .patternBox {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patternDilog .swiper-slide .form-item .describe {
+    width: 46%;
+    border: 1px dashed #FFF;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .4);
+    padding: 20px 10px;
+    color: #FFF;
+    margin: 20px 0 40px 0;
+}
+
+.patternDilog .swiper-slide .form-item .describe .tit {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.patternDilog .swiper-slide .form-item .describe .con {
+    font-size: .7rem;
+    margin: 0;
+    padding: 0 15%;
+}
+
+.patternDilog .swiper-slide .form-item .patternList {
+    width: 100%;
+    border-top: 1px solid #EEE;
+}
+
+.patternDilog .swiper-slide .form-item .patternList ul {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    max-height: 120px;
+}
+
+.patternDilog .swiper-slide .form-item .patternList ul li {
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    line-height: 22px;
+    color: #000;
+    z-index: 1000;
+    font-size: .9rem;
+}
+
+.patternDilog .swiper-slide .form-item .patternList ul li.isdel {
+    color: #666;
+}
+
+.patternDilog .swiper-slide .form-item .patternList ul li span {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.patternDilog .swiper-slide .form-item .patternList ul li span img {
+    width: 70%;
+}
+
+.patternDilog .swiper-container .swiper-pagination-bullet {
+    width: 18px;
+    height: 3px;
+    border-radius: 3px
+}
+
+.patternDilog .swiper-container .swiper-pagination-bullet-active {
+    background: #FFF
+}
+
+.patternDilog .swiper-container .swiper-pagination-bullet {
+    background: #FFF
+}

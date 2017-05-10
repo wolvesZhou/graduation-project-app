@@ -1,0 +1,16 @@
+﻿.dialog { position: absolute; background-color: rgba(137,137,137,0.8); overflow: hidden; width: 100%; top: 2rem; bottom: 0; left: 0; right: 0; z-index: 99; }
+.dialog-screen { width: 95%; height: 7rem; margin: 40% auto; background-color: white; border-radius: 5px; overflow: hidden; }
+
+.dialog-header { height: 1.3rem; overflow: hidden; line-height: 1.3rem; border-bottom: 1px solid #e3e3e3; padding: 0 0.3rem; background-color: #f1f1f1; }
+.dialog-header span { font-size: 0.6rem; font-weight: bold; color: rgba(137,137,137,0.91); }
+
+.dialog-content { height: 4rem; overflow: hidden; width: 100%; }
+
+.dialog-footer { height: 1.7rem; overflow: hidden; border-top: 1px solid #e3e3e3; padding: 0 0.3rem; background-color: #f1f1f1; }
+.dialog-close { float: right; overflow: hidden; margin-top: 0.2rem; }
+
+.btnok { border: 1px solid #e3e3e3; background-color: #ea6a00; color: white; border-radius: 3px; text-align: center; line-height: 1.3rem; padding: 0.2rem 0.5rem; }
+.btnok:active { opacity: 0.7; }
+
+.btnclose { border: 1px solid #e3e3e3; background-color: #f25623; color: white; border-radius: 3px; text-align: center; line-height: 1.3rem; padding: 0.2rem 0.5rem; margin-left: 0.3rem; }
+.btnclose:active { opacity: 0.7; }
